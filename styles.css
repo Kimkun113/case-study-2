@@ -1,0 +1,73 @@
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(trex.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+  }
+  
+  .jump {
+    /* linear: tạo hiệu ứng chuyển đổi từ lúc bắt đầu 
+    với lúc kết thúc tốc độ là như nhau. */
+    animation: jump 0.3s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 150px;
+    }
+  
+    30% {
+      top: 150px;
+    }
+  
+    50% {
+      top: 80px;
+    }
+  
+    80% {
+      top: 130px;
+    }
+  
+    100% {
+      top: 150px;
+    }
+  }
+  
+  #cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+  
+    background-image: url(cactus.png);
+    background-size: 20px 40px;
+  /* //chạy không giới hạn số lần 
+  Value là số lần lặp lớn hơn 1*/
+
+
+  /* animation-duration: time; */
+
+/* Thời gian chuyển động có thể là s hoặc ms. */
+    animation: cactus 1s infinite linear;
+  }
+  
+  @keyframes cactus {
+    from {
+      left: 600px;
+    }
+  
+    to {
+      left: -20px;
+    }
+  }
+  /* (0,600)  tinh tu man hinh ben trais*/
