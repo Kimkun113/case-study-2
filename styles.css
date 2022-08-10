@@ -58,7 +58,7 @@
   /* animation-duration: time; */
 
 /* Thời gian chuyển động có thể là s hoặc ms. */
-    animation: cactus 1s infinite linear;
+    animation: cactus 1.5s infinite linear;
   }
   
   @keyframes cactus {
