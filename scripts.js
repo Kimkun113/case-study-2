@@ -5,7 +5,6 @@ const cactus = document.getElementById("cactus");
 function jump() {
   if (dino.classList != "jump") {
     dino.classList.add("jump");
-    git
 // sau một khoảmh thời gian thực hiện 1 lần
     setTimeout(function () {
       dino.classList.remove("jump");
@@ -21,12 +20,13 @@ let Alive = setInterval(function () {
   let cactusLeft = parseInt(
     window.getComputedStyle(cactus).getPropertyValue("left")
   );
-
   // detect collision
   if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
     // collision
     alert("Game Over!");
   }
+ 
+  
 }, 10);
 
 document.addEventListener("keydown", function (event) {
