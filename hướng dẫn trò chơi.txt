@@ -1,0 +1,4 @@
+Game khủng long T-Rex
+- Khi muốn bắt đầu trò chơi : Nhấn phím space trên bàn phím
+- Sử dụng phím Space để vượt qua chứa ngại vật
+- Mỗi khi vượt qua được 1 chứa ngại vâkt thì bạn sẽ đc cộng thêm  : 1 điểm
